@@ -43,7 +43,7 @@ public class StudentManagement {
     public static void addStudent() {
         System.out.print("Enter ID: ");
         int id = sc.nextInt();
-        sc.nextLine(); // Consume newline
+        sc.nextLine(); 
         System.out.print("Enter Name: ");
         String name = sc.nextLine();
         System.out.print("Enter Age: ");
@@ -68,7 +68,7 @@ public class StudentManagement {
         int id = sc.nextInt();
         for (Student s : students) {
             if (s.getId() == id) {
-                sc.nextLine(); // Consume newline
+                sc.nextLine(); 
                 System.out.print("Enter New Name: ");
                 s.setName(sc.nextLine());
                 System.out.print("Enter New Age: ");
